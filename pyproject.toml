@@ -38,6 +38,8 @@ classifiers = [
   "Framework :: Django :: 4.1",
   "Framework :: Django :: 4.2",
   "Framework :: Django :: 5.0",
+  "Framework :: Django :: 5.1",
+  "Framework :: Django :: 5.2",
   "Framework :: Django",
   "Intended Audience :: Developers",
   "Intended Audience :: Information Technology",
@@ -56,7 +58,7 @@ classifiers = [
   "Topic :: Software Development"
 ]
 dependencies = [
-  "Django>=4,<5.1",
+  "Django>=4,<6",
   "Unidecode",
   "django-admin-interface",
   "django-admin-sortable2",
