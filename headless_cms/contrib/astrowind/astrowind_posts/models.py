@@ -60,7 +60,10 @@ class AWPost(LocalizedTitleSlugModel):
     class Meta:
         ordering = [F("publish_date").desc(nulls_first=True), "-created_date"]
         indexes = [
-            models.Index(fields=["publish_date", "created_date"], name="awpost_publish_created_idx")
+            models.Index(
+                fields=["publish_date", "created_date"],
+                name="awpost_publish_created_idx",
+            )
         ]
 
 
