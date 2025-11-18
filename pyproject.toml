@@ -60,7 +60,7 @@ dependencies = [
   "Django>=4,<6",
   "Unidecode",
   "django-admin-interface",
-  "django-admin-sortable2",
+  "django-admin-sortable2>=2.2.8",
   "django-filter",
   "django-import-export",
   "django-localized-fields",
